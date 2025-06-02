@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yaspend Nasional Namoterasi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2fd;
+            color: #263238; /* Abu kebiruan gelap */
+        }
+
+        nav {
+            background-color: #1565c0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 24px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        nav .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #fff176;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 24px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #fff176;
+            text-shadow: 0 0 8px #fff176;
+        }
+
+        header {
+            background: linear-gradient(90deg, #42a5f5, #1976d2);
+            color: #ffffff;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        .hero {
+            background: url('https://via.placeholder.com/1200x500/64b5f6/ffffff?text=SMK+Cerdas+Bangsa') no-repeat center center/cover;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 12px #ffeb3b;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            color: #f5f5f5;
+        }
+
+        .info-section {
+            background-color: #bbdefb;
+            padding: 60px 20px;
+            text-align: center;
+            color: #0d47a1;
+        }
+
+        .info-section h3 {
+            font-size: 2.2rem;
+            margin-bottom: 30px;
+            color: #0d47a1;
+        }
+
+        .info-boxes {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .box {
+            background-color: #e1f5fe;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            width: 280px;
+            transition: transform 0.3s ease;
+            color: #01579b;
+        }
+
+        .box:hover {
+            transform: translateY(-10px);
+        }
+
+        .box h4 {
+            margin-bottom: 12px;
+            color: #0277bd;
+        }
+
+        footer {
+            background-color: #0d47a1;
+            color: #eeeeee;
+            text-align: center;
+            padding: 24px 0;
+            margin-top: 40px;
+            border-top: 1px solid #0b3c91;
+        }
+
+        footer p {
+            font-size: 0.95rem;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Yaspend Nasional Namoterasi</div>
+        <ul>
+            <li><a href="beranda.html">Beranda</a></li>
+            <li><a href="#">Profil</a></li>
+            <li><a href="#">Pendaftaran</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="#">Berita</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h1>Selamat Datang di Website Resmi</h1>
+            <p>Yaspend Nasional Namoterasi</p>
+        </div>
+    </header>
+
+    <section class="hero">
+    <div class="overlay">
+        <div class="container">
+            <div>
+                <h2>Jelajahi Dunia Pendidikan Berkualitas</h2>
+                <p>Temukan informasi, program, dan prestasi kami di sini</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section class="info-section">
+        <div class="container">
+            <h3>Mengapa Memilih Kami?</h3>
+            <div class="info-boxes">
+                <div class="box">
+                    <h4>Fasilitas Lengkap</h4>
+                    <p>Ruang kelas modern, laboratorium, dan akses internet cepat.</p>
+                </div>
+                <div class="box">
+                    <h4>Guru Profesional</h4>
+                    <p>Tenaga pendidik berpengalaman dan berdedikasi tinggi.</p>
+                </div>
+                <div class="box">
+                    <h4>Prestasi Gemilang</h4>
+                    <p>Juara lomba tingkat kota, provinsi, dan nasional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Yaspend Nasional Namoterasi. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
